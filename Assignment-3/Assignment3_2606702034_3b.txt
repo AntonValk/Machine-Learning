@@ -1,0 +1,236 @@
+Classifier Tests
+
+Random Dummy Classifier
+0.212
+Majority Dummy Classifier
+0.356
+Naive Bayes Classifier
+Decision Tree Classifier
+SVM Classifier
+<class 'sklearn.naive_bayes.BernoulliNB'>
+Test for: {'alpha': 1e-05}
+F1 Score Validation:0.3970000000000001
+
+Test for: {'alpha': 0.0001}
+F1 Score Validation:0.404
+
+Test for: {'alpha': 0.001}
+F1 Score Validation:0.421
+
+Test for: {'alpha': 0.01}
+F1 Score Validation:0.425
+
+Test for: {'alpha': 0.1}
+F1 Score Validation:0.402
+
+Test for: {'alpha': 0.3}
+F1 Score Validation:0.393
+
+Test for: {'alpha': 0.6}
+F1 Score Validation:0.391
+
+Test for: {'alpha': 1}
+F1 Score Validation:0.383
+
+Best params for Validation: {'alpha': 0.01}
+Best F1 Score on Validation: 0.425
+
+<class 'sklearn.tree.tree.DecisionTreeClassifier'>
+Test for: {'criterion': 'gini', 'max_depth': None, 'min_samples_split': 3}
+F1 Score Validation:0.329
+
+Test for: {'criterion': 'gini', 'max_depth': None, 'min_samples_split': 5}
+F1 Score Validation:0.342
+
+Test for: {'criterion': 'gini', 'max_depth': None, 'min_samples_split': 10}
+F1 Score Validation:0.323
+
+Test for: {'criterion': 'gini', 'max_depth': None, 'min_samples_split': 15}
+F1 Score Validation:0.333
+
+Test for: {'criterion': 'gini', 'max_depth': None, 'min_samples_split': 20}
+F1 Score Validation:0.336
+
+Test for: {'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 3}
+F1 Score Validation:0.394
+
+Test for: {'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 5}
+F1 Score Validation:0.394
+
+Test for: {'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 10}
+F1 Score Validation:0.393
+
+Test for: {'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 15}
+F1 Score Validation:0.396
+
+Test for: {'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 20}
+F1 Score Validation:0.396
+
+Test for: {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 3}
+F1 Score Validation:0.387
+
+Test for: {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 5}
+F1 Score Validation:0.389
+
+Test for: {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 10}
+F1 Score Validation:0.389
+
+Test for: {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 15}
+F1 Score Validation:0.39
+
+Test for: {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 20}
+F1 Score Validation:0.38499999999999995
+
+Test for: {'criterion': 'gini', 'max_depth': 100, 'min_samples_split': 3}
+F1 Score Validation:0.33
+
+Test for: {'criterion': 'gini', 'max_depth': 100, 'min_samples_split': 5}
+F1 Score Validation:0.339
+
+Test for: {'criterion': 'gini', 'max_depth': 100, 'min_samples_split': 10}
+F1 Score Validation:0.329
+
+Test for: {'criterion': 'gini', 'max_depth': 100, 'min_samples_split': 15}
+F1 Score Validation:0.333
+
+Test for: {'criterion': 'gini', 'max_depth': 100, 'min_samples_split': 20}
+F1 Score Validation:0.334
+
+Test for: {'criterion': 'gini', 'max_depth': 500, 'min_samples_split': 3}
+F1 Score Validation:0.339
+
+Test for: {'criterion': 'gini', 'max_depth': 500, 'min_samples_split': 5}
+F1 Score Validation:0.331
+
+Test for: {'criterion': 'gini', 'max_depth': 500, 'min_samples_split': 10}
+F1 Score Validation:0.339
+
+Test for: {'criterion': 'gini', 'max_depth': 500, 'min_samples_split': 15}
+F1 Score Validation:0.333
+
+Test for: {'criterion': 'gini', 'max_depth': 500, 'min_samples_split': 20}
+F1 Score Validation:0.33
+
+Test for: {'criterion': 'entropy', 'max_depth': None, 'min_samples_split': 3}
+F1 Score Validation:0.337
+
+Test for: {'criterion': 'entropy', 'max_depth': None, 'min_samples_split': 5}
+F1 Score Validation:0.349
+
+Test for: {'criterion': 'entropy', 'max_depth': None, 'min_samples_split': 10}
+F1 Score Validation:0.354
+
+Test for: {'criterion': 'entropy', 'max_depth': None, 'min_samples_split': 15}
+F1 Score Validation:0.347
+
+Test for: {'criterion': 'entropy', 'max_depth': None, 'min_samples_split': 20}
+F1 Score Validation:0.346
+
+Test for: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 3}
+F1 Score Validation:0.399
+
+Test for: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 5}
+F1 Score Validation:0.4000000000000001
+
+Test for: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 10}
+F1 Score Validation:0.4000000000000001
+
+Test for: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 15}
+F1 Score Validation:0.399
+
+Test for: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 20}
+F1 Score Validation:0.4000000000000001
+
+Test for: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 3}
+F1 Score Validation:0.386
+
+Test for: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 5}
+F1 Score Validation:0.391
+
+Test for: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 10}
+F1 Score Validation:0.389
+
+Test for: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 15}
+F1 Score Validation:0.393
+
+Test for: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 20}
+F1 Score Validation:0.39
+
+Test for: {'criterion': 'entropy', 'max_depth': 100, 'min_samples_split': 3}
+F1 Score Validation:0.332
+
+Test for: {'criterion': 'entropy', 'max_depth': 100, 'min_samples_split': 5}
+F1 Score Validation:0.335
+
+Test for: {'criterion': 'entropy', 'max_depth': 100, 'min_samples_split': 10}
+F1 Score Validation:0.351
+
+Test for: {'criterion': 'entropy', 'max_depth': 100, 'min_samples_split': 15}
+F1 Score Validation:0.35
+
+Test for: {'criterion': 'entropy', 'max_depth': 100, 'min_samples_split': 20}
+F1 Score Validation:0.347
+
+Test for: {'criterion': 'entropy', 'max_depth': 500, 'min_samples_split': 3}
+F1 Score Validation:0.342
+
+Test for: {'criterion': 'entropy', 'max_depth': 500, 'min_samples_split': 5}
+F1 Score Validation:0.347
+
+Test for: {'criterion': 'entropy', 'max_depth': 500, 'min_samples_split': 10}
+F1 Score Validation:0.345
+
+Test for: {'criterion': 'entropy', 'max_depth': 500, 'min_samples_split': 15}
+F1 Score Validation:0.352
+
+Test for: {'criterion': 'entropy', 'max_depth': 500, 'min_samples_split': 20}
+F1 Score Validation:0.344
+
+Best params for Validation: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 5}
+Best F1 Score on Validation: 0.4000000000000001
+
+<class 'sklearn.svm.classes.LinearSVC'>
+Test for: {'C': 0.5, 'loss': 'hinge'}
+F1 Score Validation:0.446
+
+Test for: {'C': 0.5, 'loss': 'squared_hinge'}
+F1 Score Validation:0.43099999999999994
+
+Test for: {'C': 1.0, 'loss': 'hinge'}
+F1 Score Validation:0.447
+
+Test for: {'C': 1.0, 'loss': 'squared_hinge'}
+F1 Score Validation:0.44800000000000006
+
+Test for: {'C': 1.5, 'loss': 'hinge'}
+F1 Score Validation:0.44800000000000006
+
+Test for: {'C': 1.5, 'loss': 'squared_hinge'}
+F1 Score Validation:0.457
+
+Test for: {'C': 2.0, 'loss': 'hinge'}
+F1 Score Validation:0.451
+
+Test for: {'C': 2.0, 'loss': 'squared_hinge'}
+F1 Score Validation:0.465
+
+Test for: {'C': 5.0, 'loss': 'hinge'}
+F1 Score Validation:0.464
+
+Test for: {'C': 5.0, 'loss': 'squared_hinge'}
+F1 Score Validation:0.488
+
+Test for: {'C': 10.0, 'loss': 'hinge'}
+F1 Score Validation:0.47
+
+Test for: {'C': 10.0, 'loss': 'squared_hinge'}
+F1 Score Validation:0.483
+
+Test for: {'C': 100.0, 'loss': 'hinge'}
+F1 Score Validation:0.488
+
+Test for: {'C': 100.0, 'loss': 'squared_hinge'}
+F1 Score Validation:0.491
+
+Best params for Validation: {'C': 100.0, 'loss': 'squared_hinge'}
+Best F1 Score on Validation: 0.491
